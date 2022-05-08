@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+html {
+  font-size: 62.5%;
+  width: 1440px;
+}
+
+body {
+  width: 1440px;
+  margin: 0;
+}
+
+main {
+  font-family: "Open Sans", sans-serif;
+  /* margin: 0 5rem; */
+}
+
+header {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  justify-content: space-between;
+
+  margin: 4rem 5rem;
+}
+header img {
+  width: 11%;
+  height: 11%;
+  margin-top: 1rem;
+}
+
+header li {
+  display: inline-block;
+  margin: 1rem;
+  padding-left: 2rem;
+  font-size: 1.6rem;
+}
+.sectionTop {
+  display: flex;
+
+  margin: 0 5rem;
+  margin-top: 5rem;
+}
+
+.sectionTop article {
+  width: 50%;
+}
+
+.sectionTop article:nth-of-type(1) {
+  margin-top: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.sectionTop p {
+  font-size: 1.8rem;
+  word-spacing: 0.3rem;
+}
+
+.artSecTop img {
+  width: 95%;
+}
+
+.input1 {
+  padding: 1.2rem;
+  width: 33rem;
+  margin-top: 1rem;
+}
+.button1 {
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1.2rem;
+  width: 20rem;
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.section2 {
+  background-image: url(./images/bg-curve-desktop.svg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: bottom center;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  margin-top: 10rem;
+
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+}
+
+.sectionMiddle {
+  margin: auto 5rem;
+}
+
+.articleMiddle p {
+  width: 85%;
+  font-size: 1.6rem;
+  word-spacing: 0.3rem;
+}
+.sectionImg img {
+  width: 85%;
+  margin-left: 5rem;
+  margin-top: 7.5rem;
+}
+
+.greenLink {
+  display: flex;
+  border-bottom: 0.1rem solid hsl(170, 45%, 43%);
+  width: fit-content;
+}
+
+.greenP {
+  color: hsl(170, 45%, 43%);
+  font-size: 1.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.greenLink img {
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+}
+
+.review {
+  background-color: hsl(240, 100%, 97%);
+  width: 58%;
+  padding: 2rem 3rem;
+  margin-top: 4rem;
+  border-radius: 0.5rem;
+}
+
+.reviewText p {
+  font-size: 1.6rem;
+}
+
+.commentPic {
+  display: flex;
+  gap: 1rem;
+}
+
+.commentPic div p {
+  margin-top: 0rem;
+  font-size: 0.9rem;
+}
+
+.commentPic h3 {
+  margin-top: 0rem;
+  margin-bottom: 0.2rem;
+  font-weight: 700;
+}
+.commentPic img {
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.commentPic p {
+  font-size: 1.2rem;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+}
+.topFooter {
+  background-color: hsl(238, 22%, 44%);
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.topFooter article {
+  width: 50%;
+  padding: 6rem 0;
+}
+
+.topFooter h4 {
+  width: 60%;
+  margin: 2rem 5rem;
+  font-size: 3.2rem;
+  color: hsl(240, 75%, 98%);
+}
+
+.topFooter p {
+  width: 70%;
+  margin: auto 5rem;
+  color: hsl(240, 75%, 98%);
+  font-size: 1.6rem;
+}
+
+.input2 {
+  padding: 1.2rem;
+  width: 55rem;
+  margin-top: 1rem;
+}
+
+.button2 {
+  background-color: hsl(224, 93%, 58%);
+  color: hsl(240, 75%, 98%);
+  border: none;
+  border-radius: 0.2rem;
+  padding: 1.2rem;
+  width: 20rem;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.inputButton {
+  margin: auto 0;
+}
+
+.bottomFooter {
+  background-color: hsl(243, 87%, 12%);
+  color: hsl(240, 75%, 98%);
+  padding: 9rem 5rem;
+  padding-bottom: 6rem;
+  display: flex;
+
+  gap: 20rem;
+}
+
+.phone,
+.email {
+  display: flex;
+  gap: 1.7rem;
+}
+
+.phone img,
+.email img {
+  width: 2rem;
+  height: 1.7rem;
+  /* margin-top: 2rem; */
+}
+
+.phone {
+  margin-top: 2rem;
+}
+.phone p,
+.email p {
+  font-size: 1.5rem;
+  margin-top: 0rem;
+  color: hsl(0, 0%, 75%);
+}
+
+.bottomFooter article:not(.firstCol) {
+  margin-top: 6rem;
+}
+
+.bottomFooter article:not(.firstCol) p {
+  margin-top: 0rem;
+  font-size: 1.5rem;
+  color: hsl(0, 0%, 75%);
+}
+
+.lastCol img {
+  margin-left: 1rem;
+  border: 1px solid hsl(0, 0%, 75%);
+  border-radius: 50%;
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
