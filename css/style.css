@@ -81,25 +81,30 @@ h2 {
   width: 95%;
 }
 
+.textButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .input1 {
   padding: 1.2rem;
-  width: 50%;
-  margin-top: 1rem;
+  padding-right: 14rem;
 }
 .button1 {
   background-color: hsl(224, 93%, 58%);
   color: hsl(240, 75%, 98%);
   border: none;
   border-radius: 0.2rem;
-  padding: 1.2rem;
-  width: 30%;
+  padding: 1.2rem 6rem;
+  /* width: 30%; */
   margin-left: 2rem;
   font-size: 1.3rem;
   font-weight: 700;
 }
 
 .section2 {
-  background-image: url(./images/bg-curve-desktop.svg);
+  background-image: url(../images/bg-curve-desktop.svg);
 
   background-repeat: no-repeat;
   background-size: cover;
