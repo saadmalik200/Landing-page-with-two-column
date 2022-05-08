@@ -107,8 +107,8 @@ h2 {
   background-image: url(../images/bg-curve-desktop.svg);
 
   background-repeat: no-repeat;
-  background-size: cover;
-
+  /* background-size: cover; */
+  background-size: 300% 100%;
   background-position: bottom center;
   margin-left: 0;
   margin-right: 0;
