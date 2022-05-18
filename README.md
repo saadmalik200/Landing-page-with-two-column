@@ -37,17 +37,14 @@ Users should be able to:
 ![](./screenshot.jpg)
 
 
-#### Web Font Page
+#### Desktop Design
 
-![Web Font Page](./img/Typography1.png)
+![Web Font Page](./design/desktop-design.jpg)
 
-#### History Page
+#### Mobile Layout
 
-![History Page](./img/Typography2.png)
+![History Page](./design/mobile-design.jpg)
 
-#### Indent Page
-
-![Indent Page](./img/Typography3.png)
 
 ## My process
 
@@ -60,7 +57,6 @@ Users should be able to:
 - Background Image
 - Mobile Layout
 - Responsive Design
-
 
 
 ## Author
