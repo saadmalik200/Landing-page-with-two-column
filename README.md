@@ -18,6 +18,11 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ## Overview
 
+
+![Preview](./design/desktop-preview.jpg)
+
+
+
 ## Link
 
 - Live Site URL: [https://saadmalik200.github.io/Landing-page-with-two-column/](https://saadmalik200.github.io/Landing-page-with-two-column/)
@@ -32,9 +37,6 @@ Users should be able to:
 
 ### Screenshot
 
-
-
-![](./screenshot.jpg)
 
 
 #### Desktop Design
